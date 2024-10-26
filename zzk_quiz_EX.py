@@ -26,32 +26,6 @@ pwm2_A = PWM(IN2_A, freq=PWM_FREQ)
 pwm1_B = PWM(IN1_B, freq=PWM_FREQ)
 pwm2_B = PWM(IN2_B, freq=PWM_FREQ)
 
-def left_forward(speed):
-    pwm1_A.duty(speed)
-    pwm2_A.duty(0)
-
-def left_stop():
-    pwm1_A.duty(0)
-    pwm2_A.duty(0)
-
-def right_forward(speed):
-    pwm1_B.duty(speed)
-    pwm2_B.duty(0)
-
-def right_stop():
-    pwm1_B.duty(0)
-    pwm2_B.duty(0)
-
-def motor_forward(speed):
-    pwm1_A.duty(speed)
-    pwm2_A.duty(0)
-    pwm1_B.duty(speed)
-    pwm2_B.duty(0)
-
-def motor_stop():
-    pwm1_A.duty(0)
-    pwm1_B.duty(0)
-
 # リセット
 data = 0
 while True:
