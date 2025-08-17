@@ -78,15 +78,15 @@ while True:
     right_speed = max(0, min(1023, 1023 + diff))
 
     if data > 0:
-        print('プラスの値やで')
+        print('プラスの値')
         left_forward(left_speed)
         LED_g.on()
     elif data < 0:
-        print('マイナスの値やで')
+        print('マイナスの値')
         right_forward(right_speed)
         LED_w.on()
     else:
-        print('0やで')
+        print('0')
         motor_stop()
         LED_y.on()
 
