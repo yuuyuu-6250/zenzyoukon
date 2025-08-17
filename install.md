@@ -3,7 +3,7 @@
 
 https://thonny.org/
 
-![alt text](md_img\image.png)
+![alt text](https://github.com/yuuyuu-6250/zenzyoukon/blob/main/md_img/image.png)
 
 Download version x.x.x の下のWindows・Mac・Linuxから自分のパソコンにあったものを開きます。  
 
