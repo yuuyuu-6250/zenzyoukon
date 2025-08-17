@@ -15,6 +15,22 @@ WindowsならexeMacならpkgをダウンロードしてインストールしま�
 
 このような画面が開けば成功です。(バージョンによりUIや手順が変更になる可能性があります)
 
+## MicroPython用ファームウェアのインストール
+
+Thonnyのツール＞オプション＞インタープリンターを開きます。
+
+どのインタープリンターを使用してコードを実行しますか？をESP32に。
+
+![alt text](https://github.com/yuuyuu-6250/zenzyoukon/blob/main/md_img/image6.png)
+
+右下にある install or update MicroPython をクリックします。
+
+![alt text](https://github.com/yuuyuu-6250/zenzyoukon/blob/main/md_img/image7.png)
+
+するとこのような画面が出てくるので、画像のように設定してください。(COM番号やバージョンは変動します。)
+
+インストールを押してDone!と出たら終了です。
+
 # Sipeed MaixPiのインストール
 
 以下のリンクを開きます。
